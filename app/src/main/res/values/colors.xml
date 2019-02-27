@@ -9,4 +9,5 @@
     <color name="soft_black">#555555</color>
     <color name="googleColor">#F44336</color>
     <color name="facebookColor">#3b5998</color>
-
+    <color name="linkColor">#558B2F</color>
+</resources>
