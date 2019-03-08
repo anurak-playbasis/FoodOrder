@@ -7,9 +7,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-
-        >
+        android:orientation="vertical">
 
         <ImageView
             android:layout_width="100dp"
@@ -88,7 +86,7 @@
                 android:layout_height="match_parent"/>
 
             <TextView
-                android:id="@+id/txt_signup"
+                android:id="@+id/txt_sign_up"
                 android:text="@string/txt_sign_up"
                 android:layout_width="0dp"
                 android:layout_weight="1"

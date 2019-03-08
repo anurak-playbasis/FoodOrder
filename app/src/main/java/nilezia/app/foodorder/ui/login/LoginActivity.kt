@@ -27,6 +27,7 @@ import nilezia.app.foodorder.base.BaseMvpActivity
 import nilezia.app.foodorder.dialog.DialogManager
 import nilezia.app.foodorder.helper.FirebaseHelper
 import nilezia.app.foodorder.ui.MainActivity
+import nilezia.app.foodorder.ui.signup.SignUpActivity
 
 
 class LoginActivity : BaseMvpActivity<LoginContract.View, LoginContract.Presenter>(), LoginContract.View {
@@ -69,6 +70,10 @@ class LoginActivity : BaseMvpActivity<LoginContract.View, LoginContract.Presente
 
             getPresenter().onEmailLogin(edtUsername.text.toString(), edtPassword.text.toString())
 
+        }
+        txt_sign_up.setOnClickListener {
+            val intent = Intent(this@LoginActivity,SignUpActivity::class.java)
+            startActivity(intent)
         }
     }
 
@@ -221,7 +226,7 @@ class LoginActivity : BaseMvpActivity<LoginContract.View, LoginContract.Presente
     private fun setupGoogleSign() {
 
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.default_web_client_id))
+                 .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
                 .build()
 

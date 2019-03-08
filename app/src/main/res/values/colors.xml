@@ -5,9 +5,13 @@
     <color name="colorAccent">#FF4081</color>
     <color name="red">#FF0000</color>
     <color name="white">#ffffff</color>
+    <color name="white950">#95ffffff</color>
     <color name="gray">#acacac</color>
     <color name="soft_black">#555555</color>
     <color name="googleColor">#F44336</color>
     <color name="facebookColor">#3b5998</color>
+    <color name="green700">#689F38</color>
+    <color name="green900">#33691E</color>
     <color name="linkColor">#558B2F</color>
+
 </resources>
