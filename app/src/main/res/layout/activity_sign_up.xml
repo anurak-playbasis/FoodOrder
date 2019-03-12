@@ -66,6 +66,7 @@
         android:paddingRight="15dp">
 
         <LinearLayout
+            android:id="@+id/layoutEditText"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#40000000"
@@ -84,8 +85,7 @@
                 android:background="@drawable/round_edit_text"
                 android:inputType="textEmailAddress"
                 android:layout_marginTop="@dimen/default_margin_padding_normal"
-                android:padding="@dimen/default_margin_padding_large" />
-
+                android:padding="@dimen/default_margin_padding_large"/>
 
             <EditText
                 android:id="@+id/etSignUpName"
@@ -134,7 +134,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.5"
-        android:orientation="vertical"/>
+        android:orientation="vertical" />
 
     <LinearLayout
         android:layout_width="match_parent"

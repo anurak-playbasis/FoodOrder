@@ -51,7 +51,8 @@
         <activity android:name=".ui.MainActivity" />
         <activity android:name=".ui.cart.CartOrderActivity" />
         <activity android:name=".ui.detail.HistoryDetailActivity" />
-        <activity android:name=".ui.signup.SignUpActivity"/>
+        <activity android:name=".ui.signup.SignUpActivity"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
     </application>
 
 </manifest>
